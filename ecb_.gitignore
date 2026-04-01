@@ -1,0 +1,22 @@
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv
+
+# Generated data (large files — cache locally, don't commit)
+data/euronext_prices.csv
+data/ecb_speeches_live.csv
+
+# OS
+.DS_Store
+Thumbs.db
